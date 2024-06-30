@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.journey-heading {
+  color: #171f46;
+  font-size: 35px;
+  font-family: monospace;
+  font-weight: 100;
+  text-align: center;
+}
+.ccbp-heading {
+  color: #0967d2;
+  font-size: 45px;
+  font-size: 45px;
+  font-family: monospace;
+  font-weight: 200;
+  text-align: center;
+}
+.timeline-con {
+  line-height: 2em;
+}

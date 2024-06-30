@@ -1,0 +1,40 @@
+/* Write your CSS here */
+@media (min-width: 768px) {
+  .image-set {
+    height: 30vh;
+    width: 100%;
+  }
+  .project-card-con {
+    width: 90%;
+    padding: 5px;
+    line-height: 1.5em;
+    box-shadow: 10px 10px 5px lightblue;
+    display: flex;
+    flex-direction: column;
+  }
+  .project-title-head {
+    color: #2b237c;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+  }
+}
+@media (max-width: 768px) {
+  .image-set {
+    height: 20vh;
+    width: 100%;
+  }
+  .project-card-con {
+    width: 100%;
+    padding: 5px;
+    line-height: 1.5em;
+    display: flex;
+    flex-direction: column;
+  }
+  .project-title-head {
+    color: #2b237c;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+  }
+}
